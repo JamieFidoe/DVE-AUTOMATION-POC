@@ -24,10 +24,7 @@ public class Video {
 
     }
 
-    @Step
-    public Map<String,String> authenticate(){
 
-    }
 
 
     @Step

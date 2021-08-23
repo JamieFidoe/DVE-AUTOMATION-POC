@@ -20,7 +20,7 @@ public class VideoTest {
     private TokenService tokenService;
 
     @Before
-    private void setup(){
+    public void setup(){
 
 
     }

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: ServiceTest
+Test set: VideoTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.91 sec - in ServiceTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.013 sec - in VideoTest
