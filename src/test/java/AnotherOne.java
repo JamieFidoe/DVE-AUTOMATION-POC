@@ -1,3 +1,4 @@
+import Service.Video;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.WithTag;
@@ -9,8 +10,10 @@ public class AnotherOne {
 
     private static String url = "http://demo.guru99.com";
     private static String api = "/V4/sinkministatement.php";
+    private String authToken;
+
     @Steps
-    public service service;
+    public Video service;
 
     @Test()
     @WithTag("customTag")
