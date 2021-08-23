@@ -13,14 +13,10 @@ import static org.hamcrest.core.Is.is;
 
 public class Video {
 
+    private String dve_auth_URL = "https://stargate.eu-west-1.dve-qa.dicelaboratory.com/authenticate";
+
     @Step
-    public void getRequest(){
-        doSoemthing();
-        RestAssured.baseURI ="https://samples.openweathermap.org/data/2.5/";
-        RequestSpecification request = RestAssured.given();
-        Response response = request.queryParam("q", "London,UK")
-                .queryParam("appid", "2b1fd2d7f77ccf1b7de9b441571b39b8")
-                .get("/weather");
+    public void loginToDVE(){
 
     }
 
